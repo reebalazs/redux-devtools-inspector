@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import JSONTree from 'react-json-tree';
+import JSONTree from 'react-json-tree/src';    // XXX src needed because of github fork
 import stringify from 'javascript-stringify';
 import getItemString from './getItemString';
 import getJsonTreeTheme from './getJsonTreeTheme';
